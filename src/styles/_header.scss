@@ -1,0 +1,47 @@
+.headerContainer {
+  height: 20em;
+  background-image: linear-gradient(
+    rgba(42, 60, 79, 0.9), 
+    rgba(31, 31, 34, 0.6)
+), url(../assets/image_header.jpg);  
+  background-size: cover;  
+  text-align: center;
+  font-family: $font;  
+}
+
+.headerName {
+  height: 100%;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   
+  color: $lightGray;
+  h1 {
+    font-size: $text-big;
+    margin: 0;
+    border: 1px, solid, white;
+  }
+  hr {
+    width: 30%;
+  }
+  p {
+    font-size: $text-medium;
+    font-weight: 400;
+    margin: .5em;
+  }
+}
+
+.headerSocial a {
+  margin: .5em;
+}
+
+.headerPhoto {
+  background-image: url(../assets/stheph1.jpg);
+  background-size: cover;
+  width: 9em;
+  height: 9em;
+  border: .5em solid white;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: -75px;
+}

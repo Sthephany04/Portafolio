@@ -1,0 +1,15 @@
+.footer {
+  height: 5em;
+  background-color: $darkBlue;
+  font-family: $font;
+  text-align: center;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  p {
+    letter-spacing: 0.1em;
+    font-size: $text-small;
+    margin: 0;
+  }
+}

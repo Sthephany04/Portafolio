@@ -7,7 +7,7 @@ const Projects = () => {
   //console.log(cardsinfo.title)
   return (
     <section className="projects">
-      <h2>MIS PROYECTOS</h2>
+      <h2>PROYECTOS</h2>
       <div className="projectsGrid">
         {cardsinfo.map(({title, image, text, tecnologies, video, titlevideo, linkdemo, linkrepo}) => 
           <Card

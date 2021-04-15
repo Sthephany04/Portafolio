@@ -1,0 +1,19 @@
+.skills {
+  background-color: $backgroundColor;
+}
+
+.skillsContainer{
+  @include max-width; 
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  font-family: $font;
+  h2 {
+    @include title;
+  }
+}
+
+.sizeLogo {
+  width: 4em;
+  margin: 1em;  
+}

@@ -1,0 +1,44 @@
+.about {
+  background-color: $backgroundColor;
+}
+
+.aboutContainer {
+  @include max-width; 
+  padding-top: 6em;
+  padding-bottom: 2em;
+  font-family: $font;
+  h2 {
+    @include title;
+  }
+}
+
+.aboutGrid {
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.aboutText {
+  line-height: 1.4em;
+  text-align: justify;
+  flex: 70%;
+  color: $darkBlue;
+  span {
+    font-weight: 600;
+  }
+}
+
+.aboutDownloadCV {
+  text-align: right;
+  margin: auto;
+  flex: 30%;
+  button {
+    @include btn;
+    width: 11em;
+    height: 3em;    
+  }
+  button:hover{
+    background-color: $darkRed;
+  }
+}
+

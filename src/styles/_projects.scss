@@ -7,10 +7,16 @@
 }
 
 .projectsGrid {
-  @include max-width; 
+  @include max-width(85%); 
   padding-bottom: 2em;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+
+@media (max-width: 450px) {
+  .projectsGrid {
+    @include max-width(95%)
+  }
 }
 

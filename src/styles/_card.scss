@@ -1,5 +1,5 @@
 .card {
-  width: 22em;
+  width: 21em;
   height: 38em;
   border-radius: 8px;
   color: $darkBlue;
@@ -19,7 +19,7 @@
     @include btn;
     width: 8em;
     height: 3em;
-    margin: 1em;
+    margin: .5em;
   }
 }
 

@@ -4,7 +4,7 @@ import solSalud from '../assets/solSalud.png';
 import diagrama from '../assets/DiagramaFlujo.PNG';
 import lovers from '../assets/dataLovers.png';
 
-const cardsInfo = [
+const cardsInfo = [  
   {
     image: accenture, 
     title: 'Talent Fest - Accenture Take Care',
